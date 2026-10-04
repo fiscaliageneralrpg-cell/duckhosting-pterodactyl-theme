@@ -1,0 +1,102 @@
+:root {
+  --duck-black: #090909;
+  --duck-dark: #111111;
+  --duck-yellow: #facc15;
+  --duck-yellow-dark: #eab308;
+  --duck-white: #f5f5f5;
+}
+
+html,
+body {
+  background: var(--duck-black) !important;
+  color: var(--duck-white) !important;
+}
+
+.bg-neutral-50,
+.bg-neutral-100,
+.bg-neutral-800,
+.bg-neutral-900,
+.bg-gray-800,
+.bg-gray-900 {
+  background-color: var(--duck-black) !important;
+}
+
+nav,
+aside {
+  background: #0d0d0d !important;
+  border-color: #252525 !important;
+}
+
+.bg-neutral-700,
+.bg-gray-700,
+.bg-primary-500 {
+  background-color: var(--duck-dark) !important;
+}
+
+.text-primary-500,
+.text-blue-500,
+.text-indigo-500,
+.text-cyan-500 {
+  color: var(--duck-yellow) !important;
+}
+
+.border-primary-500,
+.border-blue-500,
+.border-indigo-500 {
+  border-color: var(--duck-yellow) !important;
+}
+
+button.bg-primary-500,
+button.bg-blue-500,
+button.bg-indigo-500,
+.bg-primary-500 {
+  color: #090909 !important;
+  background-color: var(--duck-yellow) !important;
+  border-color: var(--duck-yellow) !important;
+  font-weight: 700 !important;
+}
+
+button.bg-primary-500:hover,
+button.bg-blue-500:hover,
+button.bg-indigo-500:hover,
+.bg-primary-500:hover {
+  background-color: var(--duck-yellow-dark) !important;
+  color: #090909 !important;
+}
+
+a {
+  color: var(--duck-yellow);
+}
+
+a:hover {
+  color: var(--duck-yellow-dark);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--duck-yellow) !important;
+  box-shadow: 0 0 0 1px var(--duck-yellow) !important;
+}
+
+::selection {
+  background: var(--duck-yellow);
+  color: #090909;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090909;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3f3f46;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--duck-yellow);
+}
